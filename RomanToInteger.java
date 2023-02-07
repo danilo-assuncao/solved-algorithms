@@ -28,11 +28,6 @@ import java.util.Map;
 
 public class RomanToInteger {
 
-    public static void main(String[] args) {
-        System.out.println(romanToInt("IV")); // 4
-        System.out.println(romanToInt("VI")); // 6
-    }
-
     private static final Map<Character, Integer> ROMAN_VALUES = 
     Map.ofEntries(
         entry('I', 1),
@@ -62,5 +57,10 @@ public class RomanToInteger {
 
         }
         return sum;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(romanToInt("IV")); // 4
+        System.out.println(romanToInt("VI")); // 6
     }
 }

@@ -8,11 +8,6 @@
 
 public class PalindromeNumber {
 
-    public static void main(String[] args) {
-        System.out.println(isPalindrome(121)); // true
-        System.out.println(isPalindrome(126)); // false    
-    }
-
     public static boolean isPalindrome(int x) {
         int original = x;
         int reverse = 0;
@@ -22,5 +17,10 @@ public class PalindromeNumber {
             x /= 10;
         }
         return original == reverse;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(isPalindrome(121)); // true
+        System.out.println(isPalindrome(126)); // false    
     }
 }
