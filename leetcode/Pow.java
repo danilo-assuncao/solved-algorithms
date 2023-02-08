@@ -47,8 +47,8 @@ public class Pow {
     }
 
     public static void main(String[] args) {
-        System.out.println(pow(1.00000, -2147483648)); // 1.0
-        System.out.println(pow(2.00000, -2147483648)); // 0.0
-        System.out.println(pow(2.00000, 2)); // 4.0
+        System.out.println(pow(1.00000, -2147483648));  // 1.0
+        System.out.println(pow(2.00000, -2147483648));  // 0.0
+        System.out.println(pow(2.00000, 2));            // 4.0
     }
 }

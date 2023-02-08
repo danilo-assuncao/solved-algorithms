@@ -16,7 +16,6 @@ public class ValidParentheses {
     public static boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
         for (int i = 0; i < s.length(); i++) {
-            System.out.println(stack);
             char c = s.charAt(i);
             if (c == '(' || c == '{' || c == '[') {
                 stack.push(c);
